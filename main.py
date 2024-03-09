@@ -102,9 +102,6 @@ async def meme(ctx):
 
     await ctx.send(submission.url)
 
-
-# client.run('ODgzMjM0NTkxMTYxMzUyMjAy.YTG-UA.fyrHlI5VE8EejkFMfkoNcIb_948')
-
 asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 async def main():
