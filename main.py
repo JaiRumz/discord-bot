@@ -89,8 +89,8 @@ async def hello(ctx):
     await ctx.send(choice(responses))
 
 
-reddit = praw.Reddit(client_id='tW8Pl6gCNCy0FDtWnB9wLA',
-                     client_secret='_cjwcmw9iYLIo8u0z9tfIMXS9LZ73w',
+reddit = praw.Reddit(client_id='client-id',
+                     client_secret='client-secret',
                      user_agent='pythonpraw')
 
 @client.command(name='meme', help='This command displays popular memes')
